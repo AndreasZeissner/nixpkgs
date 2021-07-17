@@ -400,6 +400,8 @@ in
 
   dotnet-sdk_5 = dotnetCorePackages.sdk_5_0;
 
+  dotnet-sdk_5_300 = dotnetCorePackages.sdk_5_0_300;
+
   dotnet-netcore = dotnetCorePackages.netcore_2_1;
 
   dotnet-aspnetcore = dotnetCorePackages.aspnetcore_2_1;

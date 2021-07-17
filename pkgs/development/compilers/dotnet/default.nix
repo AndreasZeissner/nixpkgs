@@ -134,4 +134,11 @@ rec {
       x86_64-darwin = "jxnfTbQUb0dJ2/NX2pu8Pi/F/e4EaDm2Ta5U+6sSYj/s6nNp6NHxtEn7BzhQ9/EVLszl/oXi3lL0d/BPbzldEA==";
     };
   };
+
+  sdk_5_0_300 = buildNetCoreSdk {
+    version = "5.0.300";
+    sha512 = {
+      x86_64-linux = "ckqObtd9LTuVe45e2oLKjJkVLYaR0XebSmN9n/eBd1+YNGjuRrC8itDdv9nVN92N7LZ4T0PtrnLJUpqQdnMQ0g==";
+    };
+  };
 }
